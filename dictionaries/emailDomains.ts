@@ -1,0 +1,15 @@
+export const emailDomains = [
+  "gmail.com",
+  "yahoo.com",
+  "yahoo.es",
+  "hotmail.com",
+  "aol.com",
+  "msn.com",
+  "live.com",
+  "mail.com",
+  "mac.com",
+  "me.com",
+  "icloud.com",
+  "outlook.com",
+  "live.es",
+];

@@ -1,0 +1,15 @@
+{
+  "name": "fish-dumper",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1",
+    "unique-names-generator": "^4.7.1"
+  }
+}
