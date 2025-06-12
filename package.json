@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "npx ts-node index.ts",
+    "start": "yarn playwright test --ui",
+    "start:puppeteer": "bun run puppeteer.ts",
+    "test:e2e:generate": "npx playwright codegen https://steamgift.sbs/gift/id=7416904",
     "build": "tsc",
     "test": "jest"
   },
   "dependencies": {
+    "playwright": "^1.53.0",
+    "playwright-extra": "^4.3.6",
     "prettier": "^2.7.1",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "unique-names-generator": "^4.7.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1"
   }
 }

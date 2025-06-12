@@ -48,7 +48,7 @@ export const randomEmail = () => {
 
   let email = `${firstName}${firstSeparator}${lastName}${lastSeparator}${year}@${domain}`;
 
-  // Replace special characters from teh email
+  // Replace special characters from the email
   const replacer = [
     [" ", firstSeparator],
     ["á", "a"],

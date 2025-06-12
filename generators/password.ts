@@ -13,7 +13,7 @@ const randomString = (length: number) => {
   return result;
 };
 
-export const randomPassword = (length: number) => {
+export const randomPassword = (length: number): string => {
   if (randomItem([true, false])) {
     return randomString(length);
   }
